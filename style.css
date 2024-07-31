@@ -1,0 +1,237 @@
+/*
+  Note: These are temporary previews of the images. 
+  They're active for 10-15 days only. You should replace them with the actual images before using the code in production.
+*/
+:root {
+  --custom-width: 100vw;
+  --design-width: 1920;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+/* Default classes */
+.pos-abs {
+  position: absolute;
+}
+.object-fit {
+  object-fit: cover;
+}
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+.bg-contain {
+  background-size: contain;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-auto {
+  background-size: auto;
+}
+.bg-crop {
+  background-size: 100% 100%;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.pos-init {
+  top: 0px;
+  left: 0px;
+}
+.image-div {
+  background-color: transparent;
+  background-position: center;
+}
+/* Default classes end */
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+.parent-div {
+  position: relative;
+  width: var(--custom-width);
+  height: calc(1200 * var(--ratio));
+  overflow: hidden;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.i24ths-32 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  background: #ffffffff, #ffffffff;
+}
+.nodeBg-33 {
+  opacity: 1;
+}
+.background-33 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+.container-34 {
+  width: 94.6%;
+  height: 54.12%;
+  top: 22.94%;
+  left: 2.7%;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+}
+.parmi-les-vague-35 {
+  width: 53.73%;
+  height: 8.19%;
+  top: 0%;
+  left: 23.14%;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.parmi-les-vague-35-0 {
+  font-size: calc(37 * var(--ratio));
+  font-family: Inter;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+
+  line-height: calc(53.220001220703125 * var(--ratio));
+  color: #000000d9;
+}
+
+.i24ths-36 {
+  width: 10.05%;
+  height: 4.47%;
+  top: 10.04%;
+  left: 44.98%;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.i24ths-36-0 {
+  font-size: calc(26.600000381469727 * var(--ratio));
+  font-family: Courier New;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+
+  line-height: calc(29.030000686645508 * var(--ratio));
+  color: #000000d9;
+}
+
+.artist-penny-ge-37 {
+  width: 19.6%;
+  height: 13.4%;
+  top: 16.51%;
+  left: 40.2%;
+  opacity: 1;
+  z-index: 2;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.artist-penny-ge-37-0 {
+  font-size: calc(26.600000381469727 * var(--ratio));
+  font-family: Courier New;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+
+  line-height: calc(29.030000686645508 * var(--ratio));
+  color: #000000d9;
+}
+
+.mystre-au-24-gi-38 {
+  width: 46.58%;
+  height: 21.56%;
+  top: 26.06%;
+  left: 26.71%;
+  opacity: 1;
+  z-index: 3;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.mystre-au-24-gi-38-0 {
+  font-size: calc(37 * var(--ratio));
+  font-family: Inter;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+
+  line-height: calc(53.220001220703125 * var(--ratio));
+  color: #000000d9;
+}
+
+.columnset--slot-39 {
+  width: 49.99%;
+  height: 17.87%;
+  top: 47.66%;
+  left: 25%;
+  opacity: 1;
+  z-index: 4;
+  transform: rotate(0deg);
+}
+.he-is-constantl-310 {
+  width: 98.61%;
+  height: 100.05%;
+  top: -0.03%;
+  left: 0.7%;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.he-is-constantl-310-0 {
+  font-size: calc(26.600000381469727 * var(--ratio));
+  font-family: Courier New;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+
+  line-height: calc(29.030000686645508 * var(--ratio));
+  color: #000000d9;
+}
+
+.pcuchets-archiv-311 {
+  width: 47.95%;
+  height: 34.34%;
+  top: 65.47%;
+  left: 25.34%;
+  opacity: 1;
+  z-index: 5;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.pcuchets-archiv-311-0 {
+  font-size: calc(64.69999694824219 * var(--ratio));
+  font-family: Inter;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  letter-spacing: calc(-3.5460000038146973 * var(--ratio));
+  line-height: calc(78.80000305175781 * var(--ratio));
+  color: #000000d9;
+}
